@@ -119,10 +119,10 @@ public class MediaSessionService extends Service {
                 R.drawable.ic_baseline_pause_24, "Pause", MediaButtonReceiver.buildMediaButtonPendingIntent(this, PlaybackStateCompat.ACTION_PLAY_PAUSE)
         ));
         notificationActions.put("seekbackward", new NotificationCompat.Action(
-                R.drawable.ic_baseline_replay_30_24, "Previous Track", MediaButtonReceiver.buildMediaButtonPendingIntent(this, PlaybackStateCompat.ACTION_REWIND)
+                R.drawable.ic_baseline_replay_10_24, "Previous Track", MediaButtonReceiver.buildMediaButtonPendingIntent(this, PlaybackStateCompat.ACTION_REWIND)
         ));
         notificationActions.put("seekforward", new NotificationCompat.Action(
-                R.drawable.ic_baseline_forward_30_24, "Next Track", MediaButtonReceiver.buildMediaButtonPendingIntent(this, PlaybackStateCompat.ACTION_FAST_FORWARD)
+                R.drawable.ic_baseline_forward_10_24, "Next Track", MediaButtonReceiver.buildMediaButtonPendingIntent(this, PlaybackStateCompat.ACTION_FAST_FORWARD)
         ));
         notificationActions.put("previoustrack", new NotificationCompat.Action(
                 R.drawable.ic_baseline_skip_previous_24, "Previous Track", MediaButtonReceiver.buildMediaButtonPendingIntent(this, PlaybackStateCompat.ACTION_SKIP_TO_PREVIOUS)
